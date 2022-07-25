@@ -1,0 +1,214 @@
+/* Base */
+@font-face {
+    font-family: "HelveticaNeueCyrRegular";
+    src: url("fonts/550.ttf")
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyrBold";
+    src: url("fonts/700.ttf")
+}
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: background-color .2s;
+}
+
+/* Base */
+
+/* Head */
+
+body{
+    background-color: #15171D;
+    font-family: 'HelveticaNeueCyrRegular', sans-serif;
+    color: #fff;
+}
+
+main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todol__wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.todol__block span{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "HelveticaNeueCyrBold";
+}
+
+/* head */
+
+/* Reg */
+
+.register__container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.register__text{
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 8px;
+}
+
+.register__input-login{
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+    border-radius: 8px;
+    background-color: #15171D;
+    padding: 17px 19px;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.69);
+    margin-top: 25px;
+}
+
+.register__input-pass{
+    margin-top: 8px;
+}
+
+.register__btn{
+    padding: 13px 153px 14px 152px;
+    height: 41px;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "HelveticaNeueCyrBold";
+
+}
+
+.register__btn:active{
+    background-color: rgba(128, 122, 122, 0.249);
+}
+
+/* Register */
+
+/* Login */
+
+.login__container{
+    display: none;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.login__text{
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 8px;
+}
+
+.login__input-login{
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+    border-radius: 8px;
+    background-color: #15171D;
+    padding: 17px 19px;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.69);
+    margin-top: 25px;
+}
+
+.log__input-pass{
+    margin-top: 8px;
+    
+}
+
+.login__btn{
+    padding: 13px 153px 14px 152px;
+    height: 41px;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "HelveticaNeueCyrBold";
+
+}
+
+.login__btn:active{
+    background-color: rgba(128, 122, 122, 0.249);
+}
+/* Login */
+
+/* Last */
+
+.footer__container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__block-one{
+    position: absolute;
+    bottom: 20px;
+}
+
+.footer__block-two{
+    position: absolute;
+    bottom: 20px;
+}
+
+.footer-one{
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.footer__btn{
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "HelveticaNeueCyrRegular";
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+
+}
+
+.footer__btn:hover{
+    opacity: 70%;
+}
+
+/* Last */

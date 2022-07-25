@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization-panel</title>
+    <link rel="shortcut icon" href="pic/icon.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="todol__wrapper">
+        <div class="todol__block">
+            <span> TodoList-tt </span>
+        </div>
+    </div>
+
+    <main>
+        <div class="register__container" id="reg__container-id">
+            <span class="register__head">
+                Registration
+            </span>
+
+            <input class="register__input-login" id="reg-input" placeholder="Email" type="email">
+
+            <input class="register__input-login register__input-pass" id="reg-pass-input" placeholder="Password" type="password">
+
+            <button class="register__btn" onclick="register()">
+                Register
+            </button>
+        </div>
+
+        <div class="login__container" id="log__container-id">
+            <span class="login__head">
+                Login
+            </span>
+
+            <input class="login__input-login" id="log-input" placeholder="Email" type="email">
+
+            <input class="login__input-login log__input-pass" id="log-pass-input" placeholder="Password" type="password">
+
+            <button class="login__btn" onclick="login()">
+                Login
+            </button>
+        </div>
+
+    </main>
+
+
+
+
+    <div class="footer__container">
+        <div class="footer__block-one">
+            <div class="footer-one">
+                <button class="footer__btn" id="footer-btn" onclick="otherPage()">
+                    Sign up
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
